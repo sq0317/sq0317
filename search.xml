@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>nest.js学习笔记</title>
-    <url>/2024/06/03/nest/</url>
-    <content><![CDATA[<blockquote>
-<p>一直想系统学习一个node的框架，之前有写过一个egg.js的考勤，因为ts的使用越来越多，所以想换个新的框架进行学习。 <br/> </p>
-</blockquote>
-<h2 id="1-框架"><a href="#1-框架" class="headerlink" title="1.框架"></a>1.框架</h2><p>&nbsp; &nbsp; Nest.js、Egg.js 和 Koa 都是基于 Node.js 的服务端框架，但它们的设计和使用场景有所不同。</p>
-<h3 id="1-1-Nest-js"><a href="#1-1-Nest-js" class="headerlink" title="1.1 Nest.js"></a>1.1 Nest.js</h3><p>&nbsp; &nbsp; 结合了面向对象编程（OOP）和函数式反应式编程（FRP）的概念，提供了结构化和模块化的项目结构。Nest 自带了一些基本功能，如依赖注入、装饰器、以及对 Express 和 GraphQL 的支持,可扩展的微服务和企业级应用。<br/><br>&nbsp; &nbsp;适合构建大型、结构化的应用，尤其是那些需要严格代码组织和高可维护性的项目。</p>
-<h3 id="1-2-egg-js"><a href="#1-2-egg-js" class="headerlink" title="1.2 egg.js"></a>1.2 egg.js</h3><p>&nbsp; &nbsp; 基于 Koa，提供了更多的开箱即用的功能，比如插件系统、命令行工具、配置管理、日志处理等。<br/><br>&nbsp; &nbsp;适合中大型企业应用，尤其是需要快速搭建稳定、可扩展的基础架构的情况。</p>
-<h3 id="1-3-Koa-js"><a href="#1-3-Koa-js" class="headerlink" title="1.3 Koa.js"></a>1.3 Koa.js</h3><p>&nbsp; &nbsp; 通过使用 ES6 的特性（如生成器或 async&#x2F;await）来简化异步处理，并且不内置任何中间件，提供了一个干净的、无偏见的基础，让开发者自由选择需要的组件。<br/><br>&nbsp; &nbsp;适合快速开发原型、小型应用或者需要高度定制化的项目。</p>
-]]></content>
-      <categories>
-        <category>node学习笔记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>欢迎光临~</title>
     <url>/2024/05/29/first/</url>
-    <content><![CDATA[<p>一个热爱前端开发的代码战士，在这里会记录我的学习历程，工作经验，以及一些个人爱好。</p>
+    <content><![CDATA[<h1 id="快速了解"><a href="#快速了解" class="headerlink" title="快速了解"></a>快速了解</h1><p> 💯博客理念: 记录，学习，有进步~ <br/><br> 1️⃣英文名：Leslie Shi             <br/><br> 2️⃣地点：Shanghai <br/><br> 3️⃣职业：前端开发 <br/><br> 4️⃣爱好：打游戏，旅行 <br/></p>
 ]]></content>
       <categories>
         <category>简介</category>
@@ -57,6 +42,21 @@
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;dev&quot;: &quot;nest build --webpack --webpackPath webpack-hmr.config.js --watch&quot;,</span><br></pre></td></tr></table></figure></div>
 <p>后重新启动终端显示为</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">webpack 5.90.1 compiled successfully in 5534 ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:28     LOG [NestFactory] Starting Nest application...</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [InstanceLoader] AppModule dependencies initialized +15ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [InstanceLoader] UserModule dependencies initialized +0ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RoutesResolver] AppController &#123;/api&#125;: +10ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RouterExplorer] Mapped &#123;/api, GET&#125; route +4ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RouterExplorer] Mapped &#123;/api/test, GET&#125; route +1ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RoutesResolver] UserController &#123;/api/user&#125;: +1ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RouterExplorer] Mapped &#123;/api/user/add, POST&#125; route +1ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [RouterExplorer] Mapped &#123;/api/user/findOne, GET&#125; route +0ms</span><br><span class="line">[Nest] 7700  - 2024年06月13日 下午4:51:29     LOG [NestApplication] Nest application successfully started +5ms</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>node学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>nest.js学习笔记</title>
+    <url>/2024/06/03/nest/</url>
+    <content><![CDATA[<blockquote>
+<p>一直想系统学习一个node的框架，之前有写过一个egg.js的考勤，因为ts的使用越来越多，所以想换个新的框架进行学习。 <br/> </p>
+</blockquote>
+<h2 id="1-框架"><a href="#1-框架" class="headerlink" title="1.框架"></a>1.框架</h2><p>&nbsp; &nbsp; Nest.js、Egg.js 和 Koa 都是基于 Node.js 的服务端框架，但它们的设计和使用场景有所不同。</p>
+<h3 id="1-1-Nest-js"><a href="#1-1-Nest-js" class="headerlink" title="1.1 Nest.js"></a>1.1 Nest.js</h3><p>&nbsp; &nbsp; 结合了面向对象编程（OOP）和函数式反应式编程（FRP）的概念，提供了结构化和模块化的项目结构。Nest 自带了一些基本功能，如依赖注入、装饰器、以及对 Express 和 GraphQL 的支持,可扩展的微服务和企业级应用。<br/><br>&nbsp; &nbsp;适合构建大型、结构化的应用，尤其是那些需要严格代码组织和高可维护性的项目。</p>
+<h3 id="1-2-egg-js"><a href="#1-2-egg-js" class="headerlink" title="1.2 egg.js"></a>1.2 egg.js</h3><p>&nbsp; &nbsp; 基于 Koa，提供了更多的开箱即用的功能，比如插件系统、命令行工具、配置管理、日志处理等。<br/><br>&nbsp; &nbsp;适合中大型企业应用，尤其是需要快速搭建稳定、可扩展的基础架构的情况。</p>
+<h3 id="1-3-Koa-js"><a href="#1-3-Koa-js" class="headerlink" title="1.3 Koa.js"></a>1.3 Koa.js</h3><p>&nbsp; &nbsp; 通过使用 ES6 的特性（如生成器或 async&#x2F;await）来简化异步处理，并且不内置任何中间件，提供了一个干净的、无偏见的基础，让开发者自由选择需要的组件。<br/><br>&nbsp; &nbsp;适合快速开发原型、小型应用或者需要高度定制化的项目。</p>
+]]></content>
       <categories>
         <category>node学习笔记</category>
       </categories>
